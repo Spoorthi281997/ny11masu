@@ -6,4 +6,3 @@ def imshow(X, resize=none):
     img = Image.fromarray(X)
     resize = img.resize(size=(100, 100))
     return resize
-
